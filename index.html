@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy Bot Voice Chat</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+    <div class="cloud"></div>
+
+    <div class="robot-face-container">
+        <div class="robot-face" id="robot-face">
+            <div class="robot-eye left"></div>
+            <div class="robot-eye right"></div>
+            <div class="robot-cheek left-cheek"></div>
+            <div class="robot-cheek right-cheek"></div>
+            <div class="robot-mouth" id="robot-mouth"></div>
+        </div>
+        <div class="thought-bubble" id="thought-bubble">🤔</div>
+    </div>
+
+    <div class="voice-input-bar">
+        <div class="status-bubble" role="status" aria-live="polite">
+            <div class="status-text" id="status-text"></div>
+        </div>
+        <button id="microphone-btn" aria-label="Tap and hold to talk to Buddy Bot">
+            🎙️
+            <div class="audio-wave"></div>
+        </button>
+    </div>
+
+    <script src="script.js"></script> </body>
+</html>
